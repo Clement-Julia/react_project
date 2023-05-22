@@ -1,15 +1,12 @@
 const Card = ({ id, className, titre, children }) => {
 	return (
 		<div id={id} className={className}>
-			<div className='card-header'>
+			<div className='card-header header-red d-flex justify-content-center'>
 				<h4>{titre}</h4>
 			</div>
-			<div className='card-body'>
+			<div className='card-body body-grey'>
 				<blockquote className='blockquote mb-0'>
 					{children}
-					{/* <footer className='blockquote-footer'>
-						Someone famous in <cite title='Source Title'>Source Title</cite>
-					</footer> */}
 				</blockquote>
 			</div>
 		</div>
