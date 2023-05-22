@@ -27,6 +27,7 @@ module.exports = {
         'arrow-body-style': 'off',
         'prefer-arrow-callback': 'off',
         'no-unused-vars': 'off',
+        'react/no-unescaped-entities': 0
         // '@typescript-eslint/no-unused-vars': ['error'],
     },
     settings: {
